@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://fonts.googleapis.com/css?family=Kodchasan:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Honey</title>
 </head>
@@ -65,7 +66,7 @@
             <div class="ourtrustedshops_container _container">
                 <div class="ourtrustedshops_body">
                                     <div class="ourtrustedshops_title">Our Trusted Shops</div>
-                <div class="ourtrustedshops_shops">
+                <div data-aos="slide-up" class="ourtrustedshops_shops">
                     <img src="img/ourtrustedshops/img1.svg" alt="ourtrustedshops_image" class="ourtrustedshops_image">
                     <img src="img/ourtrustedshops/img2.svg" alt="ourtrustedshops_image" class="ourtrustedshops_image">
                     <img src="img/ourtrustedshops/img3.svg" alt="ourtrustedshops_image" class="ourtrustedshops_image">
@@ -75,7 +76,7 @@
 
             </div>
         </div>
-        <section class="honeyinfo_page">
+        <section data-aos='slide-up' class="honeyinfo_page">
             <div class="honeyinfo_container _container">
                 <div class="honeyinfo_items">
                     <div class="honeyinfo_item">
@@ -90,7 +91,7 @@
 
             </div>
         </section>
-        <section class="tastyinfo_page">
+        <section data-aos='slide-up' class="tastyinfo_page">
             <div class="tastyinfo_container _container">
                 <div class="tastyinfo_items">
                     <div class="tastyinfo_item tastyinfo_body">
@@ -111,7 +112,7 @@
                     <div class="product_item">
                         <h1 class="product_title">Our Product</h1>
                     </div>
-                    <div class="product_item product_menu">
+                    <div class="product_item product_menu" data-aos="slide-left">
                         <div class="product_menu_column first_honey">
                             <div class="first_honey_info honey_info">
                                 <div class="first_honey_title honey_title">Eucalyptus Honey	</div>
@@ -148,5 +149,8 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
